@@ -11,6 +11,10 @@ in
     type = types.bool;
     default = true;
   };
+  dynamicImageModalAPI.enable = mkOption {
+    type = types.bool;
+    default = true;
+  };
   memberListDecoratorsAPI.enable = mkOption {
     type = types.bool;
     default = true;
