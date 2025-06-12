@@ -15,13 +15,13 @@
 }:
 
 let
-  stableVersion = "1.12.2";
-  stableHash = "sha256-a4lbeuXEHDMDko8wte7jUdJ0yUcjfq3UPQAuSiz1UQU=";
+  stableVersion = "1.12.3";
+  stableHash = "sha256-fOZXgyA61G+D7otNNO8d89ghR/GiYPJ7vSZtj9TeGuU=";
   stablePnpmDeps = "sha256-hO6QKRr4jTfesRDAEGcpFeJmGTGLGMw6EgIvD23DNzw=";
 
-  unstableVersion = "1.12.2-unstable-2025-05-29";
-  unstableRev = "eafbc0d15a89bae8af403d9aef6b10eddfa8e78a";
-  unstableHash = "sha256-1xJC/yoOcD4/jrP0Mz84xoN2qXnewzfNn9nnb0V7SKw=";
+  unstableVersion = "1.12.3-unstable-2025-06-12";
+  unstableRev = "b35b72c066710943bc4569d4e5791fb758559b11";
+  unstableHash = "sha256-rSt2NgJr+uYL+P9FVBIpQ4Ythbnb0jtee1dQGDsdbJ8=";
   unstablePnpmDeps = "sha256-hO6QKRr4jTfesRDAEGcpFeJmGTGLGMw6EgIvD23DNzw=";
 in
 stdenv.mkDerivation (finalAttrs: {
